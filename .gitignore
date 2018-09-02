@@ -1,0 +1,7 @@
+# ficheros de configuración de editores, puede interesarnos tenrlos en el repo o no
+.idea
+.editorconfig
+# los módulos de node no queremos que estén en el repo ya que pesan mucho y con npm install se generan al principio del proyecto
+node_modules
+# la carpeta dist se genera con gulp por tanto no hace falta tenerla en el repo ni seguir sus cambios
+dist
