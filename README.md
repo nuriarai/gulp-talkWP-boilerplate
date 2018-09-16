@@ -11,15 +11,15 @@ Para empezar:
 
  proxy: "local.tusitio.com"
 
-3) Ves a functions.php y modifica de la línea 87 a 93 con la denominación y la extinsión de tu dominio en local:
+3) Ves a functions.php y modifica de la línea 89 a 91 con la denominación y extensión de tu dominio en local, test y producción:
 
- $domain_name = 'tusitio';
+ $
     /* environement */
     // Set your environment/url pairs
     $environments = array(
-        'local' => 'local.' . $domain_name . '.tuextension',
-        'staging' => 'staging.' . $domain_name . '.tuextension',
-        'production' => $domain_name . '.tuextension'
+        'local' => 'local.tudominio.tuextension',
+        'staging' => 'staging.tudominio.tuextension',
+        'production' => 'tudominio.tuextension'
     );
  
 4) Abre el terminal y situáte en la carpeta del tema y ejecuta:
