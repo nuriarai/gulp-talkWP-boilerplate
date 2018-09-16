@@ -83,14 +83,12 @@ function wcbcn2018_setup()
     ));
 
     $dist_dir = get_theme_root_uri() . "/" . wp_get_theme() . "/dist";
-    $domain_name = wp_get_theme(); //default to theme's name (style.css), change with your themes name
-    $domain_name = 'xerradavcbcn2018';
     /* environement */
     // Set your environment/url pairs
     $environments = array(
-        'local' => 'local.' . $domain_name . '.com',
-        'staging' => 'staging.' . $domain_name . '.com',
-        'production' => $domain_name . '.com'
+        'local' => 'local.xerradavcbcn2018.com',
+        'staging' => 'staging.xerradavcbcn2018.com',
+        'production' => 'xerradavcbcn2018.com'
     );
 
     // Get the hostname
