@@ -1,7 +1,9 @@
 # gulp-talkWP-boilerplate
-gullp boilerplate para un starter theme de WP basado en underscores
+Gulp 3.9.1 boilerplate para un starter theme de WP basado en underscores
 
 Para empezar:
+
+0) Instalar WP y copiar este tema en la carpeta themes
 
 1) Des de el administrador de WP escoge nuestro tema.
 
@@ -33,7 +35,7 @@ Para empezar:
  Tiene que aparecerte algo así:
  
  [13:25:02] CLI version 2.0.1
-[13:25:02] Local version 3.9.1
+ [13:25:02] Local version 3.9.1
 
 6) Para empezar a trabajar ejecuta:
 
